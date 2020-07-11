@@ -2078,7 +2078,7 @@ int main()
 局部：
 * 最佳置换算法（OPT）
 * 先进先出置换算法（FIFO）
-* 最近最久未使用（LRU）算法
+* 最近最久未使用（LRU）算法-实现方式为：[hash表+双链表](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/lru-suan-fa) 
 * 时钟（Clock）置换算法
 
 <a id="computer-network"></a>
