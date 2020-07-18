@@ -2610,6 +2610,9 @@ epoll的高效就在于，当我们调用epoll_ctl往里塞入百万个句柄时
 引用自：[参考](https://blog.csdn.net/qq_34802511/article/details/81543942)
 <a id="database"></a>
 
+### TLS1.2与TLS1.3
+引用自：[参考](https://blog.csdn.net/zk3326312/article/details/80245756)以及[这个](https://halfrost.com/https_tls1-3_handshake/)
+
 ## 💾 数据库
 
 > 本节部分知识点来自《数据库系统概论（第 5 版）》
