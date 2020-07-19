@@ -1047,7 +1047,7 @@ std::auto_ptr<std::string> ps (new std::string(str))；
 
 1. shared_ptr
 2. unique_ptr
-3. weak_ptr
+3. weak_ptr（防止share_ptr出现循环引用）[看这里](https://blog.csdn.net/LLZK_/article/details/52431404)
 4. auto_ptr（被 C++11 弃用）
 
 * Class shared_ptr 实现共享式拥有（shared ownership）概念。多个智能指针指向相同对象，该对象和其相关资源会在 “最后一个 reference 被销毁” 时被释放。为了在结构较复杂的情景中执行上述工作，标准库提供 weak_ptr、bad_weak_ptr 和 enable_shared_from_this 等辅助类。
